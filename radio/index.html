@@ -3,7 +3,7 @@
 <head>
           <meta charset="utf-8">
           <title>MoonlightBay Player</title>
-          <meta name="description" content="Dengarkan FM radio di Jakarta dengan gratis dan praktis.">
+          <meta name="description" content="Dengarkan FM radio di Lampung dengan gratis dan praktis.">
           <meta name="author" content="MoonlightBay Plus">
           <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,">
           <meta name="keywords" content="moonlightbay player, fm radio, am radio, sw radio, radio, radio streaming, radio player, streaming radio indonesia, radio online indonesia, prambors, genfm, iswara, mustangfm, mostradio, elshinta, sonora fm, jakarta, bandung, semarang, jogja, surabaya, bali" />
@@ -707,7 +707,7 @@
     <i class="fa fa-chevron-right" style="font-size: 0.8rem;"></i>
   </button>
         <div id="regionPicker" id="regionSubmenu" class="submenu-content">
-            <a href="javascript:void(0)" onclick="changeRegion('Jakarta')">Jakarta (ID)</a>
+            <a href="javascript:void(0)" onclick="changeRegion('Lampung')">Lampung (ID)</a>
         </div>
          <div style="border-top: 0.5px solid rgba(128,128,128,0.2); margin: 5px 0;"></div>
          <a href="/bugs"><i class="fa fa-bug"></i><span>Report Bug</span></a>
@@ -749,7 +749,7 @@
       <!-- Radio Kit -->
   <script>
     const allRegions = {
-    "Jakarta": [
+    "Lampung": [
         { name: "87.6 MHz - THEROCKINLIFE", url: "https://n0c.radiojar.com/7csmg90fuqruv", hasMetadata: true, apiType: "radiojar", apiID: "7csmg90fuqruv" },
         { name: "88.0 MHz - MUSTANG88FM", url: "https://wz.mari.co.id:1936/web_mustangfm/mustangfm/playlist.m3u8", hasMetadata: false },
         { name: "88.2 MHz - HOT RADIO", url: "https://ssg.streamingmurah.com:8004/stream", hasMetadata: false },
@@ -821,7 +821,7 @@
     ],
 };
 
-    let currentRegion = localStorage.getItem('user-region') || "Jakarta"; // Ingat pilihan terakhir
+    let currentRegion = localStorage.getItem('user-region') || "Lampung"; // Ingat pilihan terakhir
     let radioChannels = allRegions[currentRegion]; // Ambil saluran sesuai region aktif
     let currentIndex = 0;
     const audioPlayer = document.getElementById("radioPlayer");
